@@ -1,10 +1,9 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <app-navbar class="navbar navbar-dark fixed-top bg-dark" id="navBar"></app-navbar>
 <div class="container-fluid">
   <div class="row" id="mainContent">
     <app-sidebar class="col-sm-3 col-md-2 d-none d-sm-block sidebar" id="sideBar"></app-sidebar>
-    <div class="col-sm-9" id="dashboard">
-      
+    <div class="col-sm-9 ml-sm-auto coll-md-10 pt-3" id="dashboard">
+        <router-outlet></router-outlet>
     </div>
   </div>
 </div>
@@ -14,4 +13,4 @@
 </div>
 
 
-<router-outlet></router-outlet>
+

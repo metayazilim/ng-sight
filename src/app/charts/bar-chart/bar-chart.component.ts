@@ -4,7 +4,7 @@ const SAMPLE_BARCHART_DATA: any[] = [
   { data: [45, 52, 26, 89, 54, 56, 48], label: '2019 Satışları'}
 ];
 
-const SAMPLE_BARCHAR_LABELS: string[] = ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7'];
+const SAMPLE_BARCHAR_LABELS: string[] = ['Q1', 'Q2', 'Q3', 'Q4'];
 
 @Component({
   selector: 'app-bar-chart',

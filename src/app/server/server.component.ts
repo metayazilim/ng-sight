@@ -25,7 +25,7 @@ export class ServerComponent implements OnInit {
     } else {
       this.serverInput.isOnline = false;
       this.color = '#ff6b6b';
-      this.buttonText = 'Start';
+      this.buttonText = 'Aç';
     }
 
   }
